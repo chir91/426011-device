@@ -1,7 +1,7 @@
 ﻿# Личный проект «Девайс»
 
 * Студент: [Alexey Chirkun](https://up.htmlacademy.ru/htmlcss/18/user/426011).
-* Наставник: [Gleb Cirulnikov].
+* Наставник: [Gleb Tsyrulnikov].
 
 ---
 
