@@ -43,6 +43,7 @@
             <li><a href="device-catalog.html">Контакты</a></li>
           </ul>
       </nav>
+
     </header>
     <main class="monopods-main">
     	<h1 class="monopods-main__title">Моноподы для селфи</h1>
@@ -51,17 +52,27 @@
     	<a href="monopods-catalog.html"></a>
     	<section class="filters">
     		<h2 class="filters__title">Фильтр</h2>
-    		<p>Стоимость</p>
-    		<p>Цвет</p>
-    		<label><input type="checkbox" name="color" value="black">Черный</label><br>
-    		<label><input type="checkbox" name="color" value="white">Белый</label><br>
-    		<label><input type="checkbox" name="color" value="blue">Синий</label><br>
-    		<label><input type="checkbox" name="color" value="red">Красный</label><br>
-    		<label><input type="checkbox" name="color" value="pink">Розовый</label><br>
-    		<p>Bluetooth</p>
-    		<label><input type="radio" name="bluetooth" value="yes">Есть</label><br>
-    		<label><input type="radio" name="bluetooth" value="no">Нет</label><br>
-    		<a href="#" class="filters__btn">Показать</a>
+
+    		<div class="cost">
+	    		<label for="cost">Стоимость</label><br>
+	    		<input type="range" name="cost"><br>
+    		</div>
+
+    		<div class="color">
+	    		<label for="color">Цвет</label><br>
+	    		<input type="checkbox" name="color" value="black">Черный<br>
+	    		<input type="checkbox" name="color" value="white">Белый<br>
+	    		<input type="checkbox" name="color" value="blue">Синий<br>
+	    		<input type="checkbox" name="color" value="red">Красный<br>
+	    		<input type="checkbox" name="color" value="pink">Розовый<br>
+    		</div>
+
+    		<div class="bluetooth">
+	    		<label for="bluetooth">Bluetooth</label><br>
+	    		<input type="radio" name="bluetooth" value="yes">Есть<br>
+	    		<input type="radio" name="bluetooth" value="no">Нет<br>
+	    		<a href="#" class="filters__btn">Показать</a>
+    		</div>
     	</section>
 		
 		<section class="sort">
