@@ -7,3 +7,6 @@
 *.sublime*
 node_modules/
 Thumbs.db
+_editorconfig
+_editorconfig
+_gitignore
